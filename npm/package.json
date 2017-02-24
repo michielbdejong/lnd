@@ -1,0 +1,23 @@
+{
+  "name": "lnrpc-client",
+  "version": "0.1.1-alpha",
+  "description": "A gRPC client for the Lightning Network Daemon's gRPC server, generated automatically from the lnrpc/rpc.proto file",
+  "main": "rpc_grpc_pb.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Lightning Network (https://github.com/lightningnetwork)",
+  "contributors": ["Michiel de Jong (https://github.com/michielbdejong)"],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightningnetwork/lnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lightningnetwork/lnd/issues"
+  },
+  "homepage": "https://github.com/lightningnetwork/lnd#readme",
+  "dependencies": {
+    "google-protobuf": "^3.2.0"
+  }
+} 
