@@ -53,4 +53,5 @@ lnd \
     --rpcuser="$RPCUSER" \
     --rpcpass="$RPCPASS" \
     --debuglevel="$DEBUG" \
+    --debughtlc \
     "$@"
